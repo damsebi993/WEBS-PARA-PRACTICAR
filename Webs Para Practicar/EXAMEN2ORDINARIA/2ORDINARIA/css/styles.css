@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* Al dar click enlaces movimiento suave */
+html {
+    scroll-behavior: smooth;
+}
+/* HEADER */
+.header1 {
+    margin: 0;
+    background-color: #2597f4;
+    display: flex;
+}
+/* HEADER 1 CONTENIDO */
+.header1info {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    color: white;
+}
+.emailcolor{
+    filter: invert(88%) sepia(63%) saturate(7499%) hue-rotate(356deg) brightness(104%) contrast(104%);
+}
+.header1info p {
+    color: white;
+}
+/* POSICIONAR HEADER 2 */
+.header2 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    border-bottom: solid 1px black;
+    padding: 1%;
+}
+/* IMAGEN */
+.tools {
+    margin-top: 10%;
+    margin-left: 111%;
+}
+/* CENTRAR FECHA */
+#date {
+    margin-top: 18%;
+    color: white;
+}
+/* CENTRAR ELEMENTOS LOGO */
+.logo {
+    display: flex;
+    color: #334;
+    font-weight: bold;
+    /* padding: 0.5%; */
+    margin-left: 4%;
+    font-size: 20px;
+}
+
+.fixpro {
+    margin-top: 20%;
+}
+/* AJUSTAR POSICION NAVEGACION */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    /* padding: 0.5%; */
+    margin-right: 4%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+nav div {
+    margin-right: 2%;
+}
+
+/* color enlaces */
+a:visited {
+    color: #334;
+}
+header a:hover{
+    color: #2597f4;
+    text-decoration: underline;
+}
+.footerbox a:hover{
+    margin-left: 4%;
+    transition: 0.5s;
+    color:#2597f4;
+}
+a:link {
+    color: #334;
+    text-decoration: none;
+}
+
+a {
+    color: #334;
+}
+
+/* Caja Home */
+.boton {
+    border-color: #334;
+    padding: 10px 40px;
+    background-color: white;
+    color: #334;
+    font-size: 17px;
+}
+/* AL PASAR POR ENCIMA */
+.boton:hover, .botonfooter:hover{
+    background-color: #2597f4;
+    color: white;
+    border-color: #2597f4;
+}
+/* FILTRO AL PASAR POR ENCIMA */
+.sepia:hover{
+    filter: sepia(100%);
+    transition: 1s;
+}
+.cajahome {
+    border: none;
+    display: flex;
+    padding-top: 4%;
+    padding-left: 5%;
+}
+/* TAMAÑO IMAGEN */
+.cajahome img {
+    width: 50%;
+}
+
+.homeinfo {
+    padding-top: 15%;
+    width: 40%;
+}
+/* COLOR H1 */
+.homeinfo h1 {
+    color: #334;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+/* COLORES P */
+.homeinfo p {
+    color: grey;
+}
+
+/* CAJA HOME 2 */
+.cajahome2 img {
+    width: 7%;
+}
+
+.cajahome2 {
+    display: flex;
+    padding: 3%;
+    background-color: #F5F5F5;
+    justify-content: center;
+
+}
+
+.cajahome2info {
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    margin: 0;
+    
+}
+
+.cajahome2info h2 {
+    color: #334;
+    margin: 0;
+    font-size: 40px;
+    
+}
+
+.cajahome2info p {
+    margin-left: 2%;
+    width: 100%;
+    color: grey;
+}
+
+#img1cajahome {
+    margin-left: 10%;
+}
+
+/* CAJA ABOUT */
+.about {
+    display: flex;
+}
+
+.about1 {
+    padding: 10% 0% 10% 10%;
+}
+
+.about img {
+    margin-right: 4%;
+}
+
+.about1 h2,
+p {
+    color: #334;
+}
+
+/* CAJA SERVICES */
+.h1texto {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.services {
+    background-color: #F5F5F5;
+
+}
+/* GRID DEL CONTAINER */
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0% 10% 1% 10%;
+}
+/* CONTENIDO DEL CONTENEDOR */
+.container1info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px #334;
+    padding: 2%;
+
+}
+/* POSICIONAR IMAGEN */
+.container1info img {
+    width: 20%;
+    margin-top: 5%;
+}
+
+.about1 h3,
+p {
+    margin: 0;
+    color: #334;
+}
+
+.gallery {
+    background-color: white;
+    height: 300px;
+}
+/* COLOR AZUL */
+.azul,
+.blue {
+    color: #2597f4;
+}
+
+.reviews {
+    background-color: #F5F5F5;
+}
+
+.reviews h3,
+p {
+    margin: 0;
+    color: #334;
+}
+/*  GRID DEL CONTENEDOR */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0% 10% 10% 10%;
+}
+/* INFORMACION DE LA CAJA */
+.container2info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px #334;
+    padding: 2%;
+
+}
+
+.container1info h3,
+p {
+    color: #334;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.container2info img {
+    width: 20%;
+    margin-top: 5%;
+
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    filter: invert(18%) sepia(83%) saturate(2704%) hue-rotate(224deg) brightness(103%) contrast(99%);
+}
+/* TAMAÑO IMAGEN */
+.stars img {
+    width: 5%;
+
+}
+
+.pic1 {
+    border-radius: 100px;
+}
+
+/* Input + map */
+.formbox {
+    display: flex;
+    width: 100%;
+}
+
+/* Iframe mapa */
+.map {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 1%;
+    width: 40%;
+    height: 300px;
+}
+
+
+/* Inputs del formulario */
+.formulario {
+    border: solid 2px #334;
+    width: 40%;
+}
+
+.forminputs {
+    padding: 4%;
+
+}
+
+.inputs input {
+    width: 42%;
+    height: 30px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    border: solid 2px #334;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 3%;
+    border: solid 2px #334;
+}
+
+.h2form {
+    margin-left: 4%;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 2%;
+    background-color: #F5F5F5;
+}
+
+/* Posicionar el grid */
+.footercolumns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 17%;
+}
+
+/* Posicionar las columnas */
+.footerbox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Colocar uno al lado de otro */
+.spa {
+    display: flex;
+    margin-right: 4%;
+}
+
+/* Margen derecho entre la imagen y el texto */
+.spa img {
+    margin-right: 1%;
+
+}
+
+.h2form {
+    color: #334;
+}
+
+/* Creado por Dam */
+.footerbox2 {
+    padding: 1%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inputfooter {
+    width: 70%;
+    padding: 5%;
+    border: solid 2px #334;
+    margin-bottom: 10%;
+    color: #334;
+}
+
+.botonfooter {
+    border-color: #334;
+    padding: 10px 40px;
+    background-color: white;
+    color: #334;
+    font-size: 17px;
+    width: 50%;
+}
+
+.redes {
+    margin-top: 3%;
+    margin-right: 4%;
+    background-color: #334;
+    width: 10%;
+    height: 50%;
+    padding: 2%;
+}
+
+.redescontainer {
+    display: flex;
+}
+
+.hrr {
+    background-color: #334;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 2px;
+}
